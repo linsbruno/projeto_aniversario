@@ -1,0 +1,17 @@
+@use '../variables';
+
+.button {
+    box-sizing: border-box;
+    padding: 14px;
+    text-align: center;
+    background-color: variables.$green1;
+    color: variables.$firstColor;
+    border-radius: 8px;
+
+    &--inner {
+        font-size: 18px;
+        background-color: variables.$secColor;
+        padding: 5px;
+    }
+
+}
