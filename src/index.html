@@ -5,7 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;500;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>Aniversário do Bruno</title>
 </head>
@@ -16,6 +21,18 @@
             <p class="hero__text">
                 <span id="contador"></span>
             </p>
+
+            <div class="social">
+                <a href="https://www.instagram.com/lnsbruno._" class="social__link" target="_blank">
+                    <img src="./images/instagram.svg" alt="logo do instagram" class="social__link__img">
+                </a>
+                <a href="https://www.linkedin.com/in/lnsbruno/" class="social__link" target="_blank">
+                    <img src="./images/linked.svg" alt="logo do linked-in" class="social__link__img">
+                </a>
+                <a href="https://github.com/linsbruno" class="social__link" target="_blank">
+                    <img src="./images/github.svg" alt="logo do github" class="social__link__img">
+                </a>
+            </div>
 
             <div class="infos-bar">
                 <ul class="infos-bar__infos">
@@ -34,6 +51,42 @@
             </div>
         </div>
     </header>
+
+    <section class="event event--atracao">
+        <div class="container" data-aos="zoom-in-left">
+            <div class="event__detail">
+                <h2 class="event__detail__title">Atração</h2>
+                <p class="event__detail__description">
+                    Dj Roony Santiago Illo provident minima iusto repellat tempora quo incidunt, velit odit perspiciatis et aspernatur minus suscipit temporibus ea odio debitis neque? Nostrum, sapiente!
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum minus eligendi quibusdam quaerat inventore, ipsa sit, tempora quidem ea atque adipisci, praesentium quasi asperiores commodi saepe natus culpa! In, iusto.
+                </p>
+            </div>
+            <img src="./images/roonyboy.jpg" alt="Dj Roony Santiago" class="event__image">
+        </div>
+    </section>
+
+    <section class="event event--atracao event--image-left">
+        <div class="container" data-aos="zoom-in-left">
+            <div class="event__detail">
+                <h2 class="event__detail__title">O local</h2>
+                <p class="event__detail__description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo provident minima iusto repellat tempora quo incidunt, velit odit perspiciatis et aspernatur minus suscipit temporibus ea odio debitis neque? Nostrum, sapiente!
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum minus eligendi quibusdam quaerat inventore, ipsa sit, tempora quidem ea atque adipisci, praesentium quasi asperiores commodi saepe natus culpa! In, iusto.
+                </p>
+            </div>
+            <img src="./images/coroa_do_aviao.jpg" alt="Coroa do Avião" class="event__image">
+        </div>
+    </section>
+
+    <footer class="end">
+        <div class="container">
+            <a href="https://www.instagram.com/lnsbruno._/" target="_blank"> Bruno Lins WEB Dev</a>
+        </div>
+
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./scripts/main.js"></script>
 </body>
 </html>

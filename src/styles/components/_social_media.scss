@@ -1,0 +1,13 @@
+@use '../variables';
+
+.social{
+    box-sizing: border-box;
+    width: 40px;
+    padding: 5px;
+    position: fixed;
+    left: 0;
+    top:auto;
+    background-color: variables.$firstColor;
+    text-align: center;
+
+}
